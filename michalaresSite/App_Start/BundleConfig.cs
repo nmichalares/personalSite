@@ -20,6 +20,9 @@ namespace michalaresSite
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/ga").Include(
+                      "~/Scripts/site/ga.js"));
+
             bundles.Add(new ScriptBundle("~/bundles/index").Include(
                       "~/Scripts/site/Index.js"));
 
